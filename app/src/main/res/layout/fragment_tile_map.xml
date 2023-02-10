@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="presenter"
+            type="com.netcheck.ncmapdemo.ui.tilemap.TileMapFragment" />
+
+        <variable
+            name="viewModel"
+            type="com.netcheck.ncmapdemo.ui.tilemap.TileMapViewModel" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".ui.tilemap.TileMapFragment">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mv_googleTileMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/tv_testType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/netcheck_blue"
+            android:layout_alignParentTop="true"
+            android:paddingStart="14dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="12dp">
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_tileColorInfo"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_below="@+id/tv_testType"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher_foreground"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="14dp"
+                    android:layout_weight="1"
+                    android:text="bad"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="14dp"
+                    android:text="good"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_zoomWarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv_tileColorInfo"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
+            android:layout_toStartOf="@+id/cv_zoomIn"
+            android:text="zoom"
+            android:textColor="@color/netcheck_blue"
+            android:textSize="12dp"
+            android:visibility="visible"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_location"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_below="@+id/tv_testType"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:backgroundTint="@color/dark_blue"
+            android:onClick="@{() -> presenter.positionButton()}"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher_foreground"
+                tools:ignore="ContentDescription"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_zoomIn"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_below="@+id/cv_location"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:backgroundTint="@color/dark_blue"
+            android:onClick="@{() -> presenter.zoomInButton()}"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher_foreground"
+                tools:ignore="ContentDescription"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_zoomOut"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_below="@+id/cv_zoomIn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:backgroundTint="@color/dark_blue"
+            android:onClick="@{() -> presenter.zoomOutButton()}"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher_foreground"
+                tools:ignore="ContentDescription"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_userMeasurements"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_below="@+id/cv_zoomOut"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:backgroundTint="@color/dark_blue"
+            android:onClick="@{() -> presenter.userTestButton()}"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:id="@+id/iv_userTests"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher_foreground"
+                tools:ignore="ContentDescription"/>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/iv_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:onClick="@{() -> presenter.filtersButton()}">
+        </ImageView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_filters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_blue"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{() -> presenter.typeButton(1)}"
+                    android:padding="4dp"
+                    android:text="type"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_strength"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{() -> presenter.typeButton(1)}"
+                    android:padding="4dp"
+                    android:layout_alignStart="@id/tv_filterBest"
+                    android:text="strength"
+                    android:textColor="@color/white">
+                </TextView>
+
+                <View
+                    android:id="@+id/v_dividerTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_alignBottom="@id/tv_type"
+                    android:layout_toEndOf="@id/tv_strength"
+                    android:layout_toStartOf="@id/tv_type"
+                    android:background="@color/white">
+                </View>
+
+                <TextView
+                    android:id="@+id/tv_filterDownload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{() -> presenter.typeButton(1)}"
+                    android:padding="4dp"
+                    android:layout_below="@+id/tv_type"
+                    android:text="download"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_filterUpload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{() -> presenter.typeButton(2)}"
+                    android:padding="4dp"
+                    android:layout_below="@id/tv_filterDownload"
+                    android:text="upload"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_filterPing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{() -> presenter.typeButton(3)}"
+                    android:padding="4dp"
+                    android:layout_below="@id/tv_filterUpload"
+                    android:text="ping"
+                    android:textColor="@color/white">
+                </TextView>
+
+                <View
+                    android:id="@+id/v_divider"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/tv_filterDownload"
+                    android:layout_alignBottom="@id/tv_filterPing"
+                    android:layout_toEndOf="@id/tv_filterDownload"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@color/white">
+                </View>
+
+                <TextView
+                    android:id="@+id/tv_filterBest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{() -> presenter.filterButton(true)}"
+                    android:padding="4dp"
+                    android:layout_toEndOf="@id/v_divider"
+                    android:layout_below="@id/tv_strength"
+                    android:text="best"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_filterAverage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{() -> presenter.filterButton(false)}"
+                    android:padding="4dp"
+                    android:layout_below="@id/tv_filterBest"
+                    android:layout_alignStart="@id/tv_filterBest"
+                    android:text="avg"
+                    android:textColor="@color/white">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_okTestButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_filterPing"
+                    android:layout_alignEnd="@id/tv_strength"
+                    android:layout_alignStart="@id/tv_type"
+                    android:onClick="@{() -> presenter.closeFiltersButton()}"
+                    android:background="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/dark_blue"
+                    android:text="ok"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainFragment">
+
+    <ImageView
+        android:id="@+id/ivPlanet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/earth"
+        android:alpha="0"/>
+
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_blue"
+        android:alpha="0"/>
+
+    <ImageView
+        android:id="@+id/ivAnimateLogo"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tvNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivAnimateLogo"
+        android:layout_marginTop="-35dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@id/ivAnimateLogo"
+        android:alpha="0"
+        android:text="Net"
+        android:textColor="@color/netcheck_blue"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHeck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/ivAnimateLogo"
+        android:layout_alignBottom="@+id/ivAnimateLogo"
+        android:layout_marginBottom="10dp"
+        android:text="heck"
+        android:textStyle="bold"
+        android:textColor="@color/netcheck_blue"
+        android:textSize="50dp"
+        android:alpha="0"/>
+
+</RelativeLayout>

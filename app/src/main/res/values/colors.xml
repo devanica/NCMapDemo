@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A1233</color>
+    <color name="colorPrimaryDark">#1A1233</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="netcheck_blue">#0050b5</color>
+    <color name="dark_blue">#1A1233</color>
+
+    <color name="graph_red">#ff0000</color>
+    <color name="graph_one">#ff2b00</color>
+    <color name="graph_two">#ff5500</color>
+    <color name="graph_three">#ff8000</color>
+    <color name="graph_four">#ffaa00</color>
+    <color name="graph_five">#ffd500</color>
+    <color name="graph_six">#ffff00</color>
+    <color name="graph_seven">#d5ff00</color>
+    <color name="graph_eight">#aaff00</color>
+    <color name="graph_nine">#80ff00</color>
+    <color name="graph_ten">#55ff00</color>
+    <color name="graph_eleven">#2bff00</color>
+    <color name="graph_green">#00ff00</color>
+
+    <color name="transparent_blue">#701A1233</color>
+    <color name="transparent_blue_ninety">#901A1233</color>
+    <color name="transparent_blue_eighty">#801A1233</color>
+    <color name="transparent_blue_seventy">#701A1233</color>
+    <color name="transparent_blue_fifty">#501A1233</color>
+    <color name="transparent_blue_thirty">#301A1233</color>
+    <color name="transparent_black">#50000000</color>
+    <color name="transparent_red">#50FF0000</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+</resources>

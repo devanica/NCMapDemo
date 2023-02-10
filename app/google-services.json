@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "894559675093",
+    "project_id": "net-check-app",
+    "storage_bucket": "net-check-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894559675093:android:14518860846b20a7c5b85c",
+        "android_client_info": {
+          "package_name": "com.netcheck.ncmapdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894559675093-jjvs1b1vid5rkpeqqjdllgtih4m5l5o0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.netcheck.ncmapdemo",
+            "certificate_hash": "ab071da1209ab623f33c07c659e563257c6fa1de"
+          }
+        },
+        {
+          "client_id": "894559675093-gmqhfde7k7ktheck7rpn2h4blue85oq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkZyOzWO8v6kN0YWnQcIRHs8UQHv_fFHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894559675093-gmqhfde7k7ktheck7rpn2h4blue85oq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

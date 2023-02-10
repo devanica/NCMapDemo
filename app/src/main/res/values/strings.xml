@@ -1,0 +1,617 @@
+<resources>
+    <string name="app_name" translatable="false">Mobile Check</string>
+
+    <!-- URL TILES -->
+    <string name="url_tiles" translatable="false">https://api.dev.netcheckapp.com/api/map?grid=%s&amp;pid=%d&amp;z=%d&amp;x=%1d&amp;y=%1d</string>
+
+    <!-- Terms -->
+    <string name="terms_header">Privacy Policy</string>
+    <string name="terms_body">
+        I hereby agree that the NET CHECK GmbH, Ella-Barowsky-Straße 45-47, 10829 Berlin, the following
+        data processed and transmitted for the purposes set out below.\n\n
+
+        MOBILE CHECK includes a software extension (SDK) that collects technical data. For privacy
+        MOBILE CHECK only collects the data in encrypted form and assigns it to a pseudonym.\n\n
+
+        MOBILE CHECK collects the following data:\n\n
+
+        Device information as MD5 hash:\n
+        MAC Address, Android ID, Google Advertisement ID, Phone Number, IMSI\n\n
+
+        Device Information:\n
+        Program version and artificially generated device ID, device type and version\n\n
+
+        Measuring Data:\n
+        Time of use, position data of the device, mobile network data (access technology such as
+        GSM, UMTS, LTE, etc.), CellId, LAC, MNC, MCC, available received signal strengths
+        (RSSI, RSRP, CQI, ERFCN, etc.), device status (battery status, connection status),
+        telephone status (rings, active call, waiting), WLAN information (connection status,
+        theoretical speed, SSID, the first six digits of the BSSID), the first six digits of
+        the IP address to identify the landline operator of the WLAN, length of a call and the
+        volume of data consumed by the device\n\n
+
+        To protect the privacy of the phone user, MOBILE CHECK does the following:\n
+        A hash value (MD5) is formed from the MAC address (if applicable the Android ID or the
+        Advertisement ID) of the mobile phone. This encryption is already done on the phone,
+        so that the MAC address (or the Android ID or Advertisement ID) is not received.
+        MOBILE CHECK only gets the hash value and uses it as a pseudonym to which all others
+        collected data. The pseudonym is only used by MOBILE CHECK and its processor.
+        It will not be disclosed to other third parties.\n\n
+
+        MOBILE CHECK never collects data such as passwords, messages, emails nor access phonebook contacts or media content.\n\n
+
+        MOBILE CHECK uses the data for purposes of analyzing mobile networks including issuing
+        Optimization and expansion recommendations, market research and analysis of traffic flows including
+        Catchment area, visitor frequency and location analyzes.\n
+        Other recipients receive the data only in aggregated form, which does not make any conclusions about individual mobile phones
+        or SIM cards. Data that can be assigned to specific mobile phones, in particular MAC addresses,
+        IMSI and phone numbers (all hashed) will not be accessible to those recipients of the data.\n\n
+
+        I can at any time under the settings of the app, the consent with the "On/Off switch" grant or revoke.
+        With "on" I confirm the consent to the described transfer of data with the described methodology.
+        I select "off" to not allow sharing. By revoking the consent becomes the legality
+        the processing on the basis of the consent until the revocation is not affected.
+    </string>
+
+    <!-- About -->
+    <string name="about_title">About / Imprint</string>
+    <string name="about_body">
+        MOBILE CHECK is an app to measure and rate the quality of communication networks.
+        It is also possible to provide feedback on problems occur. By combining the active and comfort
+        measurements in the background of many users in a community our maps and analysis are far
+        ahead of time.\n\n
+
+        Imprint\n\n
+
+        Head Office\n
+        NET CHECK GmbH, Ella-Barowsky-Straße 45-47, 10829 Berlin\n\n
+
+        Contact\n\n
+
+        Phone:+49 30 303080 600 Fax:+49 30 303080 668\n
+        E-Mail: ncapp@netcheck.de\n\n
+
+        Managing director\n
+        Detlef Zernick\n\n
+
+        Commercial information\n\n
+
+        VAT number: DE201164592 Tax number:29/092/60238\n
+        Tax office: Berlin für Körperschaften IVCommercial register number:Berlin HRB 73708 B\n\n
+
+        Notice of liability\n
+        Despite careful monitoring of its website, MOBILE CHECK cannot accept any responsibility for the
+        content of external links. Such content is the sole responsibility of the respective website owner.
+        No liability can be accepted for data protection violations or any other legal violations in
+        connection with such links.\n\n
+
+        Copyright\n
+        All rights reserved. All texts, images, illustrations, documents and files are subject to
+        copyright and to other laws for the protection of intellectual property. They may not be used
+        for commercial purposes or duplicated or modified and reposted on other websites.
+    </string>
+
+    <!-- Legal Notes: -->
+    <string name="legal_notes_disclaimer" translatable="false">The privacy specifications are provided in German language only!</string>
+    <string name="legal_notes_body" translatable="false">
+        \n\nPräambel\n\n
+
+        1.	MOBILE CHECK ist eine Anwendung zur Erfassung anonymisierter Messgrößen zur Bestimmung der
+        Qualität der Funknetzabdeckung und Performance von Datenverbindungen im Sinne von empfundener
+        und technisch gemessener Qualität (QoS/QoE).\n
+        2.	Die NET CHECK GmbH ist Betreiber von MOBILE CHECK.\n
+        3.	Nutzer im Sinne dieser Vereinbarung ist eine natürliche oder juristische Person,
+        welche die Smartphoneapplikation oder die NET CHECK Webseite benutzt.\n
+        4.	Die Nutzungsvereinbarung kommt durch die Nutzung der Applikation oder der Webseite durch
+        den Nutzer zustande. Die Annahme dieser Vereinbarung ist Voraussetzung für die Nutzung von MOBILE CHECK.\n
+        5.	Der Betreiber behält sich ausdrücklich das Recht vor, natürlichen und juristischen Personen
+        die Nutzung bzw. Registrierung sachgrundlos zu verweigern.
+
+        \n\n§ 1 Geltungsbereich\n\n
+
+        1.	Diese Nutzungsvereinbarung gilt für alle von MOBILE CHECK derzeit und künftig angebotenen
+        Inhalte und Dienste. Sie betreffen das Nutzungsverhältnis zwischen dem Nutzer und dem Betreiber
+        von MOBILE CHECK.
+        2.	Nach Annahme der Nutzungsvereinbarung erhält der Nutzer von MOBILE CHECK die technische Möglichkeit,
+        Testdaten aus dem Internet auf ein Endgerät zu übertragen (Download), Testdaten von einem Endgerät
+        ins Internet zu senden (Upload) und die Laufzeit (Ping) von einem Endgerät zu einem Testserver
+        zu ermitteln. Weiterhin kann die Performance für Webseiten (Browsing) und Youtube überprüft werden.
+        3.	Der Betreiber kann die vorliegende Nutzungsvereinbarung jederzeit aktualisieren oder ändern.
+        Sollte der Nutzer der aktualisierten Nutzungsvereinbarung widersprechen oder die Annahme dieser
+        unterlassen, endet das Nutzungsrecht unmittelbar.
+        4.	Allgemeine Geschäftsbedingungen des Nutzers sowie Abänderungen dieser Nutzungsvereinbarung
+        finden keine Anwendung.
+
+        \n\n§ 2 Nutzungsverhältnis\n\n
+
+        1.	Das Nutzungsverhältnis beginnt mit der Annahme dieser Vereinbarung durch den Nutzer.\n
+        2.	Das Nutzungsverhältnis kann jederzeit durch den Nutzer beendet werden. Hierzu ist die
+        Applikation zu löschen. Mit der Registrierung als Nutzer erhält dieser vom Betreiber ein individuelles
+        Zugangsrecht für die erweiterten Dienste bei MOBILE CHECK. Das Zugangsrecht gilt nur für den Nutzer
+        und ist nicht übertragbar.\n
+        3.	Das Recht des Betreibers und des Nutzers zur fristlosen Kündigung aus wichtigem Grunde
+        bleibt unberührt.
+
+        \n\n§ 3 Rechte und Pflichten des Nutzers\n\n
+
+        1.	Der Nutzer erhält mit Beginn des Nutzungsverhältnisses das Recht, MOBILE CHECK und die freigegeben
+        Funktionalitäten gemäß dieser Nutzungsvereinbarung zu verwenden.\n
+        2.	Der Nutzer erklärt sich einverstanden, dass die von ihm zur Verfügung gestellten Daten
+        anonymisiert für andere Nutzer oder weitere Dritte sichtbar sein können.\n
+        3.	Der Nutzer erwirbt außerhalb der bestimmungsgemäßen Nutzung von MOBILE CHECK keinerlei Rechte.\n
+        4.	Der Nutzer ist verpflichtet, die rechtlichen Vorschriften einzuhalten und Angebote und
+        Dienste von MOBILE CHECK nicht zu rechtswidrigen Zwecken zu gebrauchen.\n
+        5.	Die Angebote und Dienste von MOBILE CHECK dürfen nur zu den in Absatz 1 der Präambel genannten
+        Zwecken gebraucht werden.\n
+        6.	Verboten sind Handlungen des Nutzers, die geeignet sind, die Angebote und Dienste von
+        MOBILE CHECK zu beeinträchtigen oder funktionsuntauglich zu machen. Der Nutzer ist verpflichtet,
+        dem Betreiber alle Schäden zu ersetzen, welche aus einem Verstoß gegen die genannten Pflichten
+        oder Rechte Dritter resultieren. Hierzu gehören auch mittelbare Schäden und Vermögensschäden.
+        Der Nutzer stellt den Betreiber von sämtlichen Ansprüchen Dritter frei, welche aus diesem Verstoß
+        resultieren, außer er hat diesen Verstoß nicht zu vertreten.
+
+        \n\n§ 4 Verantwortlichkeit für Inhalte, Verweise und Links\n\n
+
+        1.	Falls der Nutzer über Links bei MOBILE CHECK auf fremde Internetseiten gelangt, liegt die
+        Verantwortlichkeit ausschließlich bei den Anbietern dieser Seiten. Der Betreiber macht sich
+        die Inhalte dieser Seiten nicht zu eigen. Jegliche Haftung oder Gewährleistung des Betreibers
+        für die Inhalte der verlinkten Seiten ist ausgeschlossen. Eine automatische kurzzeitige
+        Zwischenspeicherung fremder Informationen ist aufgrund der gewählten Aufruf- und Verlinkungsmethodik
+        ausgeschlossen, so dass sich auch insoweit keine Verantwortlichkeit des Betreibers hierfür ergibt.\n
+        2.	Zum Zeitpunkt der Verlinkung waren für den Betreiber keine rechtswidrigen Inhalte auf den
+        verlinkten Seiten erkennbar. Auf aktuelle und künftige Änderungen der verlinkten Seiten hat der
+        Betreiber keinen Einfluss.\n
+
+        \n\n§ 5 Zugriff und Verfügbarkeit von MOBILE CHECK\n\n
+
+        1.	Der Internetzugang und das Kommunikationsequipment sind nicht Bestandteile dieser Vereinbarung.\n
+        2.	Der Betreiber ist berechtigt, MOBILE CHECK jederzeit dem jeweiligen Stand der Technik und den rechtlichen Erfordernissen anzupassen.
+
+        \n\n§ 6 Leistungsstörungen\n\n
+        1.	Aufgrund der Struktur des Internets hat der Betreiber keinen Einfluss auf die Datenübertragung
+        im Internet und übernimmt keine Verantwortung für die Verfügbarkeit, Zuverlässigkeit und Qualität
+        von Telekommunikationsnetzen, Datennetzen und technischen Einrichtungen Dritter. Störungen aufgrund
+        höherer Gewalt hat der Betreiber nicht zu vertreten.\n
+        2.	Der Betreiber kann die Nutzung von MOBILE CHECK ganz oder teilweise sperren oder den Zugang zu
+        MOBILE CHECK ganz oder teilweise beschränken, wenn NET CHECK technisch überlastet oder gestört ist bzw.
+        eine solche Überlastung oder Störung einzutreten droht. In diesen Fällen ist der Betreiber bemüht,
+        die vollständige Funktionsfähigkeit umgehend wiederherzustellen.\n
+        3.	Aufgrund von Wartungsarbeiten am System kann die Funktionsfähigkeit von MOBILE CHECK kurzzeitig
+        eingeschränkt sein oder nicht zur Verfügung stehen.
+
+        \n\n§ 7 Datenschutz und Datensicherheit\n\n
+
+        1.	Die für die Durchführung und Abwicklung der bei MOBILE CHECK angebotenen erweiterten Dienste
+        erforderlichen personenbezogenen Daten des Nutzers werden nach Maßgabe der gesetzlichen
+        Bestimmungen des Datenschutzgesetzes der Bundesrepublik Deutschland und des Landes Berlin
+        erhoben, gespeichert und verarbeitet.\n
+        2.	Bei der Nutzung der Smartphoneapplikation werden, außer den freiwilligen Angaben, keine
+        personenbezogenen Daten erfasst und gespeichert. Folgende technische Daten werden zum Betreiber
+        übertragen und gespeichert:\n
+        a. Zeitpunkt\n
+        b. Positionsdaten\n
+        c. Messergebnisse\n
+        d. Programmversion und ID\n
+        e. Gerätetyp und Version\n
+        f. Mobilfunknetzdaten:\n
+        Zugangstechnologie (GSM, UMTS, LTE usw.), CellId, LAC, MNC, MCC, Pegel)\n
+        3.	Bei der Nutzung der Komfortmessung werden zusätzlich folgende Daten anonymisiert, übertragen
+        und gespeichert:\n
+        a. Gerätezustand: Batteriestatus, Verbindungsstatus, Telefonzustand (klingelt, aktives Telefonat,
+        wartend)\n
+        b. Mobilfunknetzdaten: verfügbare Pegelwerte\n
+        c. WLAN: Verbindungsstatus, Betreiber, theoretische Geschwindigkeit, ID\n
+        d. Nutzungsdaten: Datenverbrauch pro App insgesamt sowie im Mobilnetz, Nutzerkonten ID als HASH-Wert\n
+        4.	Die in Absatz 1 angegebenen Daten werden ausschließlich zu technischen oder statistischen
+        Zwecken benötigt; ein Abgleich mit anderen Datenbeständen oder eine nicht anonymisierte Weitergabe
+        an Dritte, auch in Auszügen, findet nicht statt.\n
+        5.	Die Nutzung der angebotenen Serviceleistungen und Dienste (Bestellung von Informationsmaterial
+        und Newslettern sowie Datenbankselbsteinträge usw.) seitens des Nutzers erfolgt ausdrücklich und
+        auf freiwilliger Basis. Personenbezogene Daten, die zur Zweckerfüllung notwendigerweise zu
+        speichern sind, werden unmittelbar nach dieser durch den Betreiber gelöscht.\n
+        6.	In jedem Fall werden die angegebenen persönlichen Daten ausschließlich für die Übersendung
+        der gewünschten Informationen bzw. für die bei dem einzelnen Formular ggf. explizit genannten
+        anderen Zwecke verarbeitet. Sofern es zur Beantwortung der Anfrage erforderlich ist, werden
+        die eingetragenen Daten an die fachlich zuständige Stelle weitergeleitet. Darüber hinaus werden
+        diese Daten nicht an Dritte weitergegeben.\n
+        7.	Der Nutzer gestattet dem Betreiber, Auskunft über die verarbeiteten und gespeicherten Daten
+        des Betroffenen nach Maßgabe des Bundes und Berliner Datenschutzgesetzes zu geben.\n
+        8.	Der Nutzer stimmt der Verarbeitung seiner personenbezogenen Daten nach Maßgabe dieser
+        Vereinbarung ausdrücklich zu.\
+
+        \n\n§ 8 Urheberrechtsschutz und Bildnachweis\n\n
+
+        1.	Die Inhalte dürfen nicht verändert und ohne schriftliche Genehmigung der jeweiligen Rechtsinhaber
+        in anderen elektronischen oder gedruckten Publikationen genutzt werden. Dieses gilt auch für die
+        Reproduktion, dauerhafte Speicherung oder das Versenden von Inhalten, die auf diesen Webseiten
+        eingestellt sind.\n
+        2.	Falls nicht anders angegeben, unterliegen alle Seiten von MOBILE CHECK dem
+        Urheberrecht (Copyright). Dies gilt insbesondere für Texte, Bilder, Logos, Grafiken, Ton- und
+        Videodateien einschließlich deren Anordnung auf den Webseiten.\n
+        3.	Alle innerhalb des Internetangebotes genannten und ggf. durch Dritte geschützten Marken- und
+        Warenzeichen unterliegen uneingeschränkt den Bestimmungen des jeweils gültigen Kennzeichenrechts
+        und den Eigentums- bzw. Besitzrechten der jeweiligen eingetragenen Eigentümer. Durch die bloße
+        Nennung bei MOBILE CHECK ist nicht der Schluss zu ziehen, dass Markenzeichen nicht durch Rechte
+        Dritter geschützt sind.\n
+        4.	Ein Verstoß gegen diese Bestimmungen verpflichtet zur sofortigen Vernichtung aller
+        ausgedruckten oder heruntergeladenen Inhalte. Die Geltendmachung von Schadensersatzansprüchen bleibt
+        vorbehalten.\n
+        5.	In den vorliegenden Inhalten werden Marken und geschäftliche Bezeichnungen verwendet; auch
+        wenn diese nicht als solche gekennzeichnet sind, gelten die entsprechenden gesetzlichen Bestimmungen.
+
+        \n\n§ 9 Ausschluss von Gewährleistung und Haftung\n\n
+
+        1.	Die Inhalte von MOBILE CHECK werden unter Ausschluss jeglicher Gewährleistung zur Verfügung gestellt,
+        insbesondere wird nicht für deren Richtigkeit, Vollständigkeit oder deren Eignung für bestimmte
+        Verwendungszwecke sowie im Hinblick auf die Inhalte für deren Freiheit von Rechten Dritter und
+        die Nichtverletzung geistigen Eigentums gehaftet.\n
+        2.	Der Betreiber kann jederzeit ohne vorherige Ankündigung Änderungen am Inhalt dieser Webseite
+        vornehmen. Der Betreiber ist um ständige Aktualität bemüht, ist jedoch nicht zur Aktualisierung
+        des Inhalts dieser Webseite verpflichtet.\n
+        3.	Der Betreiber übernimmt keine Gewähr für die Erreichbarkeit und technische Verwertbarkeit der
+        Internetseiten oder übermittelter Dateien Dritter.\n
+        4.	Die Nutzung der bei MOBILE CHECK zur Verfügung gestellten Inhalte erfolgt auf alleinige Gefahr
+        des Nutzers. Für mögliche Schäden jedweder Art übernehmen der Betreiber bzw. bei MOBILE CHECK registrierte
+        oder bei MOBILE CHECK erwähnte Dritte keinerlei Haftung.\n
+        5.	Absatz 4 gilt nicht, sofern Schäden vorsätzlich entstanden sind oder gesetzliche Regelungen zur
+        Haftung zwingend vorgeschriebenen sind.
+
+        \n\n§ 10 Entgelte\n\n
+
+        1.	Die Registrierung bei MOBILE CHECK sowie die Nutzung der angebotenen Dienste und Services sind,
+        soweit der Betreiber Entgelte oder Kosten nicht ausdrücklich benennt, kostenfrei.
+
+        \n\n§ 11 Gerichtsstand und anwendbares Recht\n\n
+
+        1.	Gerichtsstand für etwaige Streitigkeiten im Zusammenhang mit dieser Vereinbarung ist Berlin.
+        Gesetzlich zwingende Gerichtsstände bleiben unberührt.
+        2.	Es gilt das Recht der Bundesrepublik Deutschland mit Ausnahme seiner kollisionsrechtlichen
+        Bestimmungen.
+    </string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="sdk" translatable="false">MQ Library</string>
+
+    <string name="about_phone_num">+49 30 303080 600</string>
+    <string name="about_email" translatable="false">ncapp@netcheck.de</string>
+
+    <string name="agree">I agree</string>
+    <string name="disagree">I disagree</string>
+
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+
+    <!-- Menu -->
+    <string name="history">History</string>
+    <string name="results">Test Results</string>
+    <string name="network_status">Network Status</string>
+    <string name="ping">Ping</string>
+    <string name="download">Download</string>
+    <string name="upload">Upload</string>
+    <string name="browsing">Browsing</string>
+    <string name="youtube">YouTube</string>
+    <string name="performance">Performance</string>
+
+    <!-- Drawer menu -->
+    <string name="about">About</string>
+    <string name="maps">Maps</string>
+    <string name="legal_notes">Legal Notes</string>
+    <string name="settings">Settings</string>
+    <string name="tile_map">Tile Map</string>
+    <string name="heat_map">Heat Map</string>
+    <string name="tool_map">Tool Map</string>
+
+    <!-- Permissions -->
+    <string name="permission_explanation">This app collects location data to enable the monitoring of network parameter for coverage evaluation even when the app is closed or not in use. </string>
+
+    <!-- Settings -->
+    <string name="sdk_show_title">MQ2 Dialog</string>
+    <string name="sdk_show_body">show the dialog tu use the MQ-Lib</string>
+    <string name="sdk_agree_title">Enable MQ2</string>
+    <string name="sdk_agree_body">agree/disagree usage of MQ-Lib</string>
+    <string name="tool_abort_title">Stop Tool</string>
+    <string name="tool_abort_body">Do you want to stop the tool?</string>
+    <string name="tutorial_agree_title">Enable Tutorial</string>
+    <string name="tutorial_agree_body_map">show tutorial on tile map page</string>
+    <string name="tutorial_agree_body_main">show tutorial on main page</string>
+    <string name="tutorial_agree_body_tool">show tutorial on tool page</string>
+
+    <!-- Network Status -->
+    <string name="cellular_information">Cellular Information</string>
+    <string name="attached">Attached</string>
+    <string name="sim_not_found">Sim card not found</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="provider">Provider</string>
+    <string name="technology">Technology</string>
+    <string name="tel_number">Telephone number</string>
+    <string name="level">Level</string>
+    <string name="mcc_mnc">MCC-MNC</string>
+    <string name="mcc" translatable="false">MCC</string>
+    <string name="mnc" translatable="false">MNC</string>
+    <string name="lac">LAC</string>
+    <string name="tac" translatable="false">TAC</string>
+    <string name="cell_id">Cell ID</string>
+    <string name="sim_operator">SIM operator</string>
+    <string name="sim_number">SIM number</string>
+    <string name="sim_country">SIM country</string>
+
+    <string name="wifi_info">Wi-Fi Information</string>
+    <string name="connected">Connected</string>
+    <string name="wifi_not_connected">Wi-Fi not detected</string>
+    <string name="ssid">SSID</string>
+    <string name="bssid">BSSID</string>
+    <string name="mac">MAC</string>
+    <string name="ip_address">IP Address</string>
+    <string name="link_speed">Link speed</string>
+    <string name="capabilities">Capabilities</string>
+    <string name="frequency">Frequency</string>
+    <string name="ip_config">IP Configuration</string>
+
+    <string name="device_info">Device information</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="model">Model</string>
+    <string name="sim_status">SIM status</string>
+    <string name="battery_status">Battery status</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="missing_permission">Missing permission</string>
+    <string name="location_not_found">Location not found</string>
+    <string name="location_disabled">Location disabled</string>
+    <string name="location_enable">Enable location to continue.</string>
+    <string name="location_permission_disabled">Location permission disabled!</string>
+
+    <string name="attached_body">Indicates if you are attached to a cellular network.</string>
+    <string name="cell_id_body">A Cell ID (Cell identification) identifies uniquely the cell in which your device is logged in.</string>
+    <string name="sim_country_body">The country of your domestic network.</string>
+    <string name="lac_body">The Location Area Code (LAC) refers to the current location area of a mobile phone within a mobile network.  </string>
+    <string name="level_body">The level indicates you how good is your reception signal.\ndBm is an electrical power unit
+                                   (in dB) referenced to 1 milliwatt (mW). Typical range is between -49 dBm und -115 dBm.</string>
+    <string name="mcc_mnc_body">The abbreviation MCC stands for Mobile Country Code. Together with the Mobile Network Code (MNC),
+                                it is used to identify each mobile network.  </string>
+    <string name="sim_operator_body">The domestic network of your SIM card, if the notification is activated by your provider.</string>
+    <string name="tel_number_body">The phone number saved on your device. Your device might not display the new phone number
+                                     immediately after changing the SIM card.\n\nPLEASE NOTE: We don\'t register this number! It is only shown here.</string>
+    <string name="provider_body">The provider of your mobile network.</string>
+    <string name="technology_body">This field indicates which mobile broadcast standard is being used at the moment
+                                   (GSM, GPRS, EDGE, UMTS, HSDPA, HSDPA+ LTE, LTE Advanced).</string>
+    <string name="ip_address_body">Each device within a network has an IP address (IP = Internet Protocol). It is used for the identification
+                                   and addressing of a device. Thus, it is ensured that the data stream arrives at the correct device.</string>
+    <string name="serial_num_body">Every SIM card has a serial number (ICCID).\n\nPLEASE NOTE: We don´t register this number!
+                                   It will only appear here.</string>
+    <string name="bssid_body">The BSSID is the MAC address of your router or access point.</string>
+    <string name="capabilities_body">Indicates the security standards for wireless network access supported by your device.</string>
+    <string name="frequency_body">Informs about the channel frequency of your wireless connection.</string>
+    <string name="mac_body">Your MAC address. This address is assigned uniquely to each suitable network device. It is also
+                            known as Ethernet ID, Airport ID, Wi-Fi address or physical address.</string>
+    <string name="link_speed_body">(also known as data rate). The link speed specifies how much data can theoretically be
+                                   transmitted within a time unit over a transmission channel. </string>
+    <string name="ssid_body">SSID is the acronym for Service Set Identifier. The SSID is the name of your Wi-Fi network. </string>
+    <string name="connected_body">Indicates if you are connected to a wireless network.</string>
+    <string name="sim_status_body">The SIM status reports whether there are problems with the SIM card.
+        \n\nReady:\nno problems\n\nPIN/PUK required:\nPIN or PUK code must be entered to unlock the SIM card
+        \n\nABSENT:\nSIM card not inserted</string>
+    <string name="sim_number_body">Every SIM card has a serial number (ICCID).
+        \n\nPLEASE NOTE: We don´t register this number! It will only appear here.</string>
+    <string name="ip_config_body">IP address and information about your network are displayed here.</string>
+
+    <!-- Selection -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="proceed">Proceed</string>
+
+    <!-- Sim card status -->
+    <string name="absent">ABSENT</string>
+    <string name="ready">READY</string>
+    <string name="not_ready">NOT READY</string>
+    <string name="error">ERROR</string>
+    <string name="restricted">RESTRICTED</string>
+    <string name="locked">LOCKED</string>
+    <string name="disabled">DISABLED</string>
+    <string name="pin_required">PIN REQUIRED</string>
+    <string name="puk_required">PUK REQUIRED</string>
+    <string name="unknown">UNKNOWN</string>
+
+    <!-- Filters -->
+    <string name="test">Test</string>
+    <string name="reset">Reset</string>
+    <string name="problems">Show problems</string>
+    <string name="best">Best</string>
+    <string name="average">Average</string>
+    <string name="avg">Avg</string>
+
+    <string name="place_select">Place: %s</string>
+    <string name="test_select">Test: %s</string>
+    <string name="signal_level">Signal level</string>
+
+    <!-- Map -->
+    <string name="date_technology">Date &amp; Technology</string>
+    <string name="date_time">Date &amp; Time</string>
+    <string name="date">Date</string>
+    <string name="place">Place</string>
+    <string name="test_results">Net Test Results</string>
+    <string name="zoom_warning">Zoom in to see the tiles!</string>
+    <string name="select_marker_warning">Select marker to show results</string>
+    <string name="select_tile_warning">Click on a tile to show results</string>
+
+    <string name="my_test">My Tests</string>
+    <string name="connection">Connection</string>
+
+    <!-- Place dialog -->
+    <string name="place_title">Where are you…</string>
+    <string name="bus_streetcar">Bus</string>
+    <string name="car_vehicle">Car </string>
+    <string name="other">Other</string>
+    <string name="outdoors">Outdoors</string>
+    <string name="train">Train</string>
+    <string name="indoors">Indoors</string>
+
+    <!-- Dialogs -->
+    <string name="data_usage_title">Notice</string>
+    <string name="data_usage_body">The net test can result in increased data usage.
+      Depending on your contract, additional costs may be incurred.</string>
+    <string name="test_active_title">Another Test Active</string>
+    <string name="test_active_body">You cannot run two tests at the time.</string>
+    <string name="test_cancel_title">Stop test</string>
+    <string name="test_cancel_message">Stop the current test?</string>
+    <string name="test_delete_title">Delete test</string>
+    <string name="test_delete_message">Do you really want to delete this test?</string>
+    <string name="data_roaming_title">Enable Mobile Data</string>
+    <string name="data_roaming_message">This test requires user to disable wifi and use mobile data.</string>
+
+    <!-- Permission explanation -->
+    <string name="type">Type</string>
+    <string name="strength">Strength</string>
+    <string name="permission_explain_title">Permissions Required</string>
+    <string name="permission_explain_location">We require the location permission to receive your position during the tests.</string>
+    <string name="permission_explain_phone">Please enable the call permission to register call drops. There is no personal information like phone number shared. </string>
+    <string name="permission_explain_background">This app collects location data to enable the monitoring
+        of network parameter for coverage evaluation even when the app is closed or not in use. For full support of this feature the background location permission is required. </string>
+    <string name="permission_explain_sdk"> We will show you now an opt-in dialog explaining the features and methods we are using to collect network parameter. </string>
+
+    <!-- Intent -->
+    <string name="send_email">Send Email: </string>
+    <string name="tel">Tel: </string>
+    <string name="file_removal_error">Error while deleting the file</string>
+    <string name="save_file_error">Error while saving file to storage</string>
+
+    <!-- Browsing KPI -->
+    <string name="latency">Latency</string>
+    <string name="load_time">Load time</string>
+    <string name="load_ratio" translatable="false">Ratio</string>
+
+    <!-- YouTube KPI -->
+    <string name="freeze">Freeze</string>
+    <string name="video_quality">Video quality</string>
+
+    <!-- States -->
+    <string name="unreachable">Unreachable</string>
+    <string name="canceled">Canceled</string>
+
+    <string name="good">Good</string>
+    <string name="bad">Bad</string>
+    <string name="poor">Poor</string>
+
+    <string name="loading">Loading</string>
+    <string name="started">Started</string>
+    <string name="testing">Testing</string>
+
+    <string name="wifi" translatable="false">Wi-Fi</string>
+    <string name="mobile" translatable="false">Mobile</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="failed">Failed</string>
+    <string name="none">None</string>
+
+    <string name="site_not_reachable">Site not reachable</string>
+    <string name="connection_not_available">Connection not available</string>
+    <string name="wait_for_test">Test not finished!</string>
+
+    <string name="tool" translatable="false">Tool</string>
+    <string name="ping_rtt" translatable="false">Ping RTT</string>
+    <string name="operator">Operator</string>
+    <string name="plmn" translatable="false">PLMN</string>
+    <string name="psc_uarf" translatable="false">PSC/UARF</string>
+    <string name="cid" translatable="false">CID</string>
+    <string name="plmn_lac" translatable="false">PLMN/LAC</string>
+    <string name="dbm" translatable="false">dbm</string>
+    <string name="network_type" translatable="false">Network type</string>
+    <string name="additional_type" translatable="false">Additional type</string>
+    <string name="sim_slot" translatable="false">Sim slot</string>
+    <string name="signal_quality" translatable="false">Signal quality</string>
+    <string name="arfcn" translatable="false">arfcn</string>
+    <string name="gsmber" translatable="false">gsmber</string>
+    <string name="wcdmapsc" translatable="false">wcdmapsc</string>
+    <string name="ltepci" translatable="false">ltepci</string>
+    <string name="rssnr" translatable="false">rssnr</string>
+    <string name="cqi" translatable="false">cqi</string>
+    <string name="lteta" translatable="false">lteta</string>
+    <string name="ltebw" translatable="false">ltebw</string>
+    <string name="nrsinr" translatable="false">nrsinr</string>
+    <string name="nrssrsrq" translatable="false">nrssrsrq</string>
+    <string name="nrssrsrp" translatable="false">nrssrsrp</string>
+    <string name="bandwidths" translatable="false">Bandwidths</string>
+    <string name="traffic_info" translatable="false">Traffic Info</string>
+    <string name="bytes_tx" translatable="false">Bytes Tx</string>
+    <string name="bytes_rx" translatable="false">Bytes Rx</string>
+    <string name="battery_info" translatable="false">Battery Info</string>
+    <string name="health" translatable="false">Health</string>
+    <string name="sensor_info" translatable="false">Sensor info</string>
+    <string name="light" translatable="false">Light</string>
+    <string name="magnet_x" translatable="false">Magnet X</string>
+    <string name="magnet_y" translatable="false">Magnet Y</string>
+    <string name="magnet_z" translatable="false">Magnet Z</string>
+    <string name="proximity" translatable="false">Proximity</string>
+    <string name="pressure" translatable="false">Pressure</string>
+    <string name="humidity" translatable="false">Humidity</string>
+    <string name="data_state">Data State</string>
+    <string name="data_activity" translatable="false">Data Activity</string>
+    <string name="ipv4_address" translatable="false">IPv4 Address</string>
+    <string name="ipv6_address" translatable="false">IPv6 Address</string>
+    <string name="call_state">Call State</string>
+    <string name="nw_capacity_dl">NW Capacity DL</string>
+    <string name="nw_capacity_ul">NW Capacity UL</string>
+    <string name="mobile_kbps_dl" translatable="false">Mobile Kbps DL</string>
+    <string name="mobile_kbps_ul" translatable="false">Mobile Kbps UL</string>
+    <string name="total_kbps_dl">Total Kbps DL</string>
+    <string name="total_kbps_ul">Total Kbps UL</string>
+    <string name="s_state" translatable="false">s_state</string>
+    <string name="rssi" translatable="false">RSSI</string>
+    <string name="longitude" translatable="false">Longitude</string>
+    <string name="latitude" translatable="false">Latitude</string>
+    <string name="altitude" translatable="false">Altitude</string>
+    <string name="speed">Speed</string>
+    <string name="g" translatable="false">G</string>
+    <string name="pci_psc_bsic" translatable="false">PCI/PSC/BSIC</string>
+    <string name="e_u_arfcn" translatable="false">(E/U)ARFCN</string>
+    <string name="reg" translatable="false">REG</string>
+    <string name="tac_lac" translatable="false">TAC/LAC</string>
+    <string name="rsrp_rscp_rxlev" translatable="false">RSRP/RSCP/RxLev</string>
+    <string name="rsrq" translatable="false">RSRQ</string>
+    <string name="ta" translatable="false">TA</string>
+    <string name="mobile_network">Mobile Network</string>
+    <string name="data">Data</string>
+    <string name="cell_info">Cell Info</string>
+    <string name="signal_power">Signal Power</string>
+    <string name="ping_unit" translatable="false">ms</string>
+    <string name="empty" translatable="false"> </string>
+
+    <!-- Tutorial -->
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+
+    <string name="toggle_personal_results">Enable personal results created once you finished testing.</string>
+    <string name="select_filter_results">Use filters to view results of others presented as tiles on the map.</string>
+    <string name="select_tile_results">Select tile to learn about providers and connection in given area.</string>
+    <string name="select_marker_results">Select marker to learn about connection in given area based on your test.</string>
+    <string name="view_connection_level">Blue stands for good, red stands for bad connection.</string>
+    <string name="select_map_controls">Map controls.</string>
+    <string name="toggle_clustering">Toggle clustering.</string>
+
+    <string name="select_test_type">Choose between performance, youtube or browsing test type.</string>
+    <string name="select_user_results">View past test results.</string>
+    <string name="select_status_page">View network status information.</string>
+    <string name="select_test_place">Select place where test is taken.</string>
+    <string name="present_conn_type">View connection type and availability.</string>
+
+    <string name="present_graph_type">Graphs presenting signal status and ping values.</string>
+    <string name="toggle_follow_driver">Toggle driver following on the map.</string>
+    <string name="toggle_tool">Toggle tool.</string>
+    <string name="clear_map">Clear map.</string>
+    <string name="view_map_settings">View map settings.</string>
+    <string name="view_signal_level">Green stands for good, orange stands for bad signal.</string>
+    <string name="view_device_status">View status of connection, sensors, traffic and battery.</string>
+
+    <string name="traffic_kbits" translatable="false">kbit/s</string>
+    <string name="traffic_mbits" translatable="false">mbit/s</string>
+    <string name="ping_ms" translatable="false">ms</string>
+    <string name="ping_s" translatable="false">s</string>
+    <string name="minimum_test_selection_warning">Minimum test selection is one!</string>
+    <string name="warning_select_place">You must select place to continue!</string>
+    <string name="map_line_thickness">Map\nthickness</string>
+    <string name="signal_line_thickness">Signal\nthickness</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="report_center">Report Center</string>
+
+</resources>
